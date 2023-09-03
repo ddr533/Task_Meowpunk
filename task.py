@@ -17,7 +17,7 @@ def create_empty_table() -> None:
             timestamp INTEGER,
             player_id INTEGER,
             event_id INTEGER,
-            error_id INTEGER,
+            error_id TEXT,
             json_server TEXT,
             json_client TEXT
             )
